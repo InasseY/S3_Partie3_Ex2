@@ -8,12 +8,12 @@ namespace Partie3_Ex2
         {
           
 
-            int n = 0;
-
-            while (n < 10)
+           
+            for (int n = 0; n<10;)
             {
-                Console.WriteLine($"Bonjour, je suis le message n°{n}");
                 n++;
+                Console.WriteLine($"Bonjour, je suis le message n°{n}");
+  
             }
         }
     }
